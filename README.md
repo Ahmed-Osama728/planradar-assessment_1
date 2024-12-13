@@ -1,14 +1,13 @@
 # Construction Ticket Management System
 
-A high-performance React application for managing construction defects and tickets. This application implements a custom virtual scrolling solution to handle large datasets efficiently.
+A high-performance React application for managing construction defects tickets. This application implements a custom virtual scrolling solution to handle large datasets efficiently.
 
 ## Features
 
 - Custom virtual scrolling implementation for handling 10,000+ tickets
 - TypeScript for type safety
-- Responsive and beautiful UI with Tailwind CSS
+- Responsive UI with Tailwind CSS
 - Unit tests with Vitest and React Testing Library
-- Zero dependencies for virtualization (built from scratch)
 
 ## Getting Started
 
@@ -21,7 +20,7 @@ A high-performance React application for managing construction defects and ticke
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/construction-ticket-manager.git
+git clone https://github.com/Ahmed-Osama728/planradar-assessment_1.git
 cd construction-ticket-manager
 ```
 
@@ -65,18 +64,3 @@ src/
   ├── App.tsx           # Main application component
   └── main.tsx         # Application entry point
 ```
-
-## Performance Considerations
-
-- Virtual scrolling ensures constant memory usage regardless of list size
-- Memoization of expensive calculations
-- Efficient re-rendering through React's virtual DOM
-- Fixed height items for predictable calculations
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
