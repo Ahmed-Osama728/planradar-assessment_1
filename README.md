@@ -5,7 +5,6 @@ A high-performance React application for managing construction defects tickets. 
 ## Features
 
 - Custom virtual scrolling implementation for handling 10,000+ tickets
-- TypeScript for type safety
 - Responsive UI with Tailwind CSS
 - Unit tests with Vitest and React Testing Library
 
@@ -41,16 +40,6 @@ The application will be available at `http://localhost:5173`
 ```bash
 npm test
 ```
-
-## Technical Details
-
-### Virtual Scrolling Implementation
-
-The virtual scrolling is implemented using a custom hook `useVirtualList` that:
-- Maintains a fixed height for each ticket row
-- Only renders visible items plus a small overscan area
-- Efficiently handles scroll events and viewport calculations
-- Updates the visible items based on scroll position
 
 ### Project Structure
 
