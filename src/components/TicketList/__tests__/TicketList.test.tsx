@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { render, screen } from '../../../test/utils/test-utils';
-import { TicketList } from '../TicketList';
 import { mockTickets } from '../../../test/mocks/ticketMocks';
+import { TicketList } from '../../TicketList';
 
 describe('TicketList', () => {
   it('renders tickets correctly', () => {

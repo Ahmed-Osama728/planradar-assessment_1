@@ -1,13 +1,7 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { describe, it, expect, vi } from 'vitest';
 import { renderHook } from '@testing-library/react';
 import { useVirtualList } from '../useVirtualList';
-
-// Mock ResizeObserver to avoid ReferenceError in Jest
-global.ResizeObserver = class {
-  observe() {}
-  unobserve() {}
-  disconnect() {}
-};
 
 describe('useVirtualList', () => {
   const mockRef = {
